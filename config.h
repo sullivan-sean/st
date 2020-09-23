@@ -5,7 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Iosevka Nerd Font:style=Book:pixelsize=18:antialias=true:autohint=true";
+static char *font = "Iosevka Nerd Font:pixelsize=14:antialias=true:autohint=true";
+static char *font2[] = {
+		"Hack:pixelsize=14:antialias=true:autohint=true",
+		"JoyPixels:pixelsize=10:antialias=true:autohint=true",
+};
 static int borderpx = 2;
 
 /*
